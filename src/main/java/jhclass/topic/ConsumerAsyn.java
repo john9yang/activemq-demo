@@ -22,7 +22,7 @@ public class ConsumerAsyn {
     public Session getSession() {
         return session;
     }
-    public static void main(String[] args) throws JMSException {h
+    public static void main(String[] args) throws JMSException {
         String[] topics = { "MyTopic1", "MyTopic2", "MyTopic3", "MyTopic4" };
         ConsumerAsyn consumer = new ConsumerAsyn();
         for (String stock : topics) {
